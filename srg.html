@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sonoran Recon Group | Training</title>
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial, Helvetica, sans-serif;}
+body{color:white;background:black;}
+
+.hero{
+    min-height:100vh;
+    background:
+        linear-gradient(rgba(0,0,0,.75), rgba(0,0,0,.9)),
+        url("logo.png") center/contain no-repeat fixed;
+    display:flex;
+    flex-direction:column;
+}
+
+/* NAV */
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:25px 8%;
+}
+.logo{height:65px;}
+
+nav ul{
+    list-style:none;
+    display:flex;
+    gap:35px;
+}
+nav a{
+    color:white;
+    text-decoration:none;
+    font-size:15px;
+    letter-spacing:1px;
+    transition:.2s;
+}
+nav a:hover{opacity:.7;}
+
+/* CONTENT */
+.hero-content{
+    flex:1;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:40px 20px;
+}
+.inner{max-width:800px;}
+.inner img{width:200px;margin-bottom:20px;}
+
+h1{font-size:40px;letter-spacing:3px;margin-bottom:20px;}
+p{opacity:.9;margin-bottom:18px;line-height:1.7;}
+
+.join-box{
+    margin-top:35px;
+    padding:25px;
+    border:1px solid rgba(255,255,255,.2);
+    background:rgba(255,255,255,.05);
+}
+
+.download-btn{
+    display:inline-block;
+    margin-top:15px;
+    padding:14px 28px;
+    background:white;
+    color:black;
+    text-decoration:none;
+    font-weight:bold;
+    letter-spacing:1px;
+}
+.download-btn:hover{opacity:.8;}
+
+footer{
+    text-align:center;
+    padding:20px;
+    font-size:13px;
+    opacity:.6;
+}
+</style>
+</head>
+
+<body>
+
+<section class="hero">
+
+<nav>
+    <img src="logo.jpg" class="logo">
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="builds.html">Builds</a></li>
+        <li><a href="srg.html">Training</a></li>
+    </ul>
+</nav>
+
+<div class="hero-content">
+    <div class="inner">
+
+        <img src="srg.jpg">
+
+        <h1>SONORAN RECON GROUP</h1>
+
+        <p>
+        Sonoran Recon Group is a training collective, not a militia. It’s open to anyone who is legally allowed to possess firearms and wants to build useful skills, stay prepared, and train with good people.
+        </p>
+
+        <p>
+        The goal is simple: bring together veterans, active military, law enforcement, and civilians who want to learn, improve, and keep their skills sharp. Training includes tactics, evasion, survival, land navigation, shooting, close-quarters principles, long-range shooting, and TCCC, led by people with real experience in their fields.
+        </p>
+
+        <p>
+        The group is headed by a U.S. military veteran with nine years of service and two combat deployments, with a focus on safe, practical, and useful training. We’ll also include optional workouts and physical training sessions for anyone wanting to improve their health and endurance.
+        </p>
+
+        <p>
+        We plan to meet one to three times per month depending on schedules. Some days will be serious training, some lighter, but the goal is always the same — stay ready, learn something new, and build a strong group of capable people.
+        </p>
+
+        <p>
+        It’s also about community. We want this to be a place to meet like-minded people, build friendships, and sometimes grab food or a beer afterward.
+        </p>
+
+        <div class="join-box">
+            <p><strong>To join, download the packet and email the completed forms to:</strong></p>
+            <p><strong>brandon@gqgunworks.com</strong></p>
+
+            <!-- CHANGE FILE PATH IF NEEDED -->
+            <a href="files/Sonoran_Recon_Group_Fillable.pdf" class="download-btn" download>
+                Download SRG Packet
+            </a>
+        </div>
+
+    </div>
+</div>
+
+<footer>
+© 2026 General Quarters Gun Works
+</footer>
+
+</section>
+
+</body>
+</html>
